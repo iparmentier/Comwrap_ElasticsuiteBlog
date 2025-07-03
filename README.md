@@ -5,6 +5,8 @@
 [![PHP](https://img.shields.io/badge/PHP-7.3+-blue.svg)](https://www.php.net)
 [![License](https://img.shields.io/badge/License-OSL--3.0-green.svg)](https://opensource.org/licenses/OSL-3.0)
 
+[SPONSOR: Amadeco](https://www.amadeco.fr)
+
 This module extends [Smile ElasticSuite](https://github.com/Smile-SA/elasticsuite) to integrate [Magefan Blog](https://github.com/magefan/module-blog) posts into the search engine, providing a unified search experience across products and blog content.
 
 ## Features
