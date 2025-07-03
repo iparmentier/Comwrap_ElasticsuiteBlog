@@ -1,6 +1,6 @@
 # Comwrap ElasticSuite Blog Search Module for Magento 2
 
-[![Latest Stable Version](https://img.shields.io/github/v/release/iparmentier/magento2-elasticsuite-stock)](https://github.com/iparmentier/magento2-elasticsuite-stock/releases)
+[![Latest Stable Version](https://img.shields.io/github/v/release/iparmentier/Comwrap_ElasticsuiteBlog)](https://github.com/iparmentier/Comwrap_ElasticsuiteBlog/releases)
 [![Magento 2](https://img.shields.io/badge/Magento-2.3.x|2.4.x-brightgreen.svg)](https://magento.com)
 [![PHP](https://img.shields.io/badge/PHP-7.3+-blue.svg)](https://www.php.net)
 [![License](https://img.shields.io/badge/License-OSL--3.0-green.svg)](https://opensource.org/licenses/OSL-3.0)
@@ -184,7 +184,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Support
 
-For issues and feature requests, please use the [GitHub issue tracker](https://github.com/iparmentier/magento2-elasticsuite-stock/issues).
+For issues and feature requests, please use the [GitHub issue tracker](https://github.com/iparmentier/Comwrap_ElasticsuiteBlog/issues).
 
 ## License
 
@@ -192,6 +192,6 @@ This module is licensed under the Open Software License ("OSL") v3.0. See the [L
 
 ## Credits
 
-- Developed by Comwrap
+- Developed by [Comwrap](https://github.com/comwrap/Comwrap_ElasticsuiteBlog)
 - Based on [Smile ElasticSuite](https://github.com/Smile-SA/elasticsuite)
 - Integrates with [Magefan Blog](https://github.com/magefan/module-blog)
