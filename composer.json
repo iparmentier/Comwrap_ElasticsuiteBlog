@@ -1,14 +1,8 @@
 {
-    "name": "comwrap/module-elasticsuite-blog-search",
+    "name": "amadeco/module-elasticsuite-blog-search",
     "type": "magento2-module",
     "license": ["OSL-3.0",  "AFL-3.0"],
     "description": "Comwrap Elasticsuite - Blog Post Search Module for Smile Elasticsuite.",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "ssh://git@gitlab.comwrap.eu:Magento_2/Comwrap_ElasticsuiteBlog.git"
-        }
-    ],
     "require": {
         "magento/framework": ">=100.1.0",
         "magento/module-store": ">=100.1.0",
