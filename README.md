@@ -1,8 +1,4 @@
-# Extension is not acvitely maintaining.
-If you need the module and want to maintain the repo, please drop me a message. 
-Twitter: @nuzil
-
-## ElasticSuite Blog search for Magefan Magento 2 Blog
+# ElasticSuite Blog search for Magefan Magento 2 Blog
 
 
 This module connecting between each other [ElasticSuite](https://github.com/Smile-SA/elasticsuite) search extension and  [Magefan](https://magefan.com/magento2-extensions) [Magento 2 Blog extension](https://magefan.com/magento2-blog-extension)  (GitHub: [magefan/module-blog](https://github.com/magefan/module-blog))
