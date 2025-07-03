@@ -51,19 +51,17 @@ class Collection extends \Magefan\Blog\Model\ResourceModel\Post\Collection
      *
      * @SuppressWarnings(PHPMD.ExcessiveParameterList)
      *
-     * @param \Magento\Framework\Data\Collection\EntityFactory   $entityFactory     Collection entity factory
+     * @param \Magento\Framework\Data\Collection\EntityFactory             $entityFactory     Collection entity factory
      * @param \Psr\Log\LoggerInterface                                     $logger            Logger.
      * @param \Magento\Framework\Data\Collection\Db\FetchStrategyInterface $fetchStrategy     Db Fetch strategy.
      * @param \Magento\Framework\Event\ManagerInterface                    $eventManager      Event manager.
-     * @param \Magento\Framework\Stdlib\DateTime\DateTime                  $date
+     * @param \Magento\Framework\Stdlib\DateTime\DateTime                  $date              Date
      * @param \Magento\Store\Model\StoreManagerInterface                   $storeManager      Store manager.
-     * @param \Smile\ElasticsuiteCore\Search\Request\Builder               $requestBuilder    Search request
-     *                                                                                        builder.
+     * @param \Smile\ElasticsuiteCore\Search\Request\Builder               $requestBuilder    Search request builder.
      * @param \Magento\Search\Model\SearchEngine                           $searchEngine      Search engine
      * @param string                                                       $searchRequestName Search request
      * @param \Magento\Framework\DB\Adapter\AdapterInterface|null          $connection        Db Connection.
      * @param \Magento\Framework\Model\ResourceModel\Db\AbstractDb|null    $resource          DB connection.
-     *
      */
     public function __construct(
         \Magento\Framework\Data\Collection\EntityFactory $entityFactory,
@@ -78,12 +76,13 @@ class Collection extends \Magefan\Blog\Model\ResourceModel\Post\Collection
         \Magento\Framework\DB\Adapter\AdapterInterface $connection = null,
         \Magento\Framework\Model\ResourceModel\Db\AbstractDb $resource = null
     ) {
-
         parent::__construct($entityFactory, $logger, $fetchStrategy, $eventManager, $date, $storeManager, $connection, $resource);
 
         $this->requestBuilder    = $requestBuilder;
         $this->searchEngine      = $searchEngine;
         $this->searchRequestName = $searchRequestName;
+        // Initialize the storeId with the current store
+        $this->storeId           = $storeManager->getStore()->getId();
     }
 
     /**
