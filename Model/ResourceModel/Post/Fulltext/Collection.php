@@ -125,9 +125,9 @@ class Collection extends \Magefan\Blog\Model\ResourceModel\Post\Collection
      *
      * @return int
      */
-    public function getStoreId()
+    public function getStoreId(): int
     {
-        return $this->storeId;
+        return (int)$this->storeId;
     }
 
     /**
